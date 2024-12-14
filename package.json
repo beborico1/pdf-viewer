@@ -9,12 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.0"
+    "@react-pdf/renderer": "^4.1.5",
+    "next": "latest",
+    "pdfjs-dist": "^3.4.120",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-pdf": "^9.1.1"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
   }
 }
